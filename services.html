@@ -67,10 +67,12 @@
         <aside id="sidebar">
           <div class="dark">
             <h3>Get A Quote</h3>
-            <form class="quote">
-  						<div>
+            <form class="quote" method="post" action="email.php">
+            			
+  					<div>
   							<label>Name</label><br>
   							<input type="text" placeholder="Name">
+  						
   						</div>
   						<div>
   							<label>Email</label><br>
@@ -78,11 +80,11 @@
   						</div>
   						<div>
   							<label>Message</label><br>
-  							<textarea placeholder="Message"></textarea>
+  							<textarea name="message" placeholder="Message"></textarea>
   						</div>
-  						<a href="email.php">
+  						
   						<button class="button_1" type="submit">Send</button>
-  						</a>
+  					
 					</form>
           </div>
         </aside>
