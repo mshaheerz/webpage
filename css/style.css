@@ -97,6 +97,14 @@ header a:hover{
   color:#ffffff;
 }
 
+#showcase2{
+  min-height:400px;
+  background:url('../img/j4p.gif') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#AF0A00;
+  }
 #showcase h1{
   margin-top:100px;
   font-size:55px;
